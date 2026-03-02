@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box red;
+  box-sizing: border-box;
 }
      body {
      width: 100%;
@@ -246,15 +246,6 @@
   object-fit: cover;
   margin-right: 10px;
   
-}
-.call {
-  display: grid;
-  width: 100%;
-  align-items: center;
-  grid-template-columns: repeat(1fr);
-  gap: 20px;
-  max-width: 80px;
-  margin: 10px auto;
 }
 .content-wrapper {
   display: flex;
@@ -1062,8 +1053,8 @@ h2{
     }
 .call {
   display: grid;
-  align-items: left;
-  grid-template-columns: repeat(3,1fr);
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   max-width: 1000px;
   margin: 40px auto;
