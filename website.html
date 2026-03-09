@@ -2,36 +2,35 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <title>Website Under Construction</title>
   </head>
   <body>
-<header class="header">
-  <div class="header-container">
-    <!-- Logo -->
-    <div class="header-logo">
-      <a href="#">My Recipes</a>
-    </div>
+<nav class="nav">
+  <div class="navdiv">
 
-    <!-- Navigation -->
     
+     <div class="logo" ><a href="#">My Recipes</a></div>
 
-      <!-- Menu Links -->
-      <ul class="nav-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Recipes</a></li>
-        <li><a href="#">Categories</a></li>
-        <li><a href="#">About</a></li>
+
+      <div class="toggle">
+        <i class="fa fa-bars">
+          
+        </i>
+      </div>
+
+      <ul>
+        <li class="li"><a href="#ourpeople">Home</a></li>
+        <li class="li"><a href="#perpecis">Recipes</a></li>
+        <li class="li"><a href="#">Categories</a></li>
+        <li class="li"><a href="#">About</a></li>
       </ul>
-    </nav>
-  </div>
-
-
-
-</header>
+    </div>
+  </nav>
 
 <section class="content-wrapper">
 
@@ -95,13 +94,13 @@
 </section>
 </section>
 
-<section class="perpecis">
+<section id="perpecis">
 
 
 
  
 
- <div class="logo">
+ <div class="style">
    <a href="https://www.x.com">
      <img src="image/my_recipes__1_-removebg-preview.png" alt="Click me">
     </a>
@@ -235,47 +234,59 @@
 
 </div>
 </section>
-<section class="java">
-  <h2>Trending Now</h2> 
-  <div class="cham">
-    <div class="card">
-      <img src="image/vp1.webp" alt="A table displaying cakes pink beverage containers baking accessories and mixing equipment in a kitchen setting" class="card img universal-image__image lazyloadwait lazyloaded" data-expand="300">
-      <p>Easy and delicious. I paired the noodles with chicken in lemony anchovy sauce.</p>
-  </div>
-  <div class="card">
-     <img src="image/jack3.webp" alt="A table displaying cakes pink beverage containers baking accessories and mixing equipment in a kitchen setting" class="card img universal-image__image lazyloadwait lazyloaded" data-expand="300">
-    <p>"HOLY COW. These are delicious! They just melt in your mouth!"<br><em><strong>— kitkatcupcake67</strong></em></p>
-  </div>
-<div class="card">
-  <img src="image/pp1.webp"  alt="A table displaying cakes pink beverage containers baking accessories and mixing equipment in a kitchen setting" class="card img universal-image image lazyloadwait lazyloaded" data-expand="300">
-  <div class="card-content">
-    <span class="card-tag" >OLYMPICS</span>
-  <p>10 Recipes That Make
-    <br>
-     Watching the Winter
-     <br> 
-     Olympics a Delicious
-     <br>
-      Spectator Sport</p>
-  </div>
-</div>
-<div class="card">
-  <img src="image/d12.webp" width="400px" height="264px" alt="A table displaying cakes pink beverage containers baking accessories and mixing equipment in a kitchen setting" class="cardimg universal-image image lazyloadwait lazyloaded" data-expand="300">
-  
-  <div class="card-content">
 
-   <p class="card p">10 Kitchen Products We’re Done
-  <br>
-   Overspending On, and What To Buy
-   <br>
-    Instead—From OXO, KitchenAid, and
-    <br>
-     Rubbermaid</p>
+<section class="java">
+  <h2>Trending Now</h2>
+
+  <div class="cham">
+
+    <div class="card">
+      <img src="image/vp1.webp" alt="Food image">
+      <div class="card-content">
+        <p>
+          "HOLY COW. These are delicious! They just melt in your mouth!"<br>
+          <em><strong>— kitkatcupcake67</strong></em>
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="image/jack3.webp" alt="Food image">
+      <div class="card-content">
+        <p>
+          "HOLY COW. These are delicious! They just melt in your mouth!"<br>
+          <em><strong>— kitkatcupcake67</strong></em>
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="image/pp1.webp" alt="Food image">
+      <div class="card-content">
+        <span class="card-tag">OLYMPICS</span>
+        <p>
+          10 Recipes That Make<br>
+          Watching the Winter<br>
+          Olympics a Delicious<br>
+          Spectator Sport
+        </p>
+      </div>
+    </div>
+ 
+    <div class="card">
+      <img src="image/pps1.webp" alt="Food image">
+      <div class="card-content">
+        <span class="card-tag">OLYMPICS</span>
+        <p>
+          10 Recipes That Make<br>
+          Watching the Winter<br>
+          Olympics a Delicious<br>
+          Spectator Sport
+        </p>
+      </div>
+    </div>
   </div>
-</div>
 </section>
-<section class="trending">
-<h2 class="trending h2">Big Easy Specialist</h2>
 
 <div class="grid-container">
 
@@ -366,55 +377,10 @@
       <div class="rating">Rating</div>
     </div>
   </div>
-
 </div>
 
 
-</section>
-<div class="popular">
-  <div class="container">
-   
-  <input
-  type="text"
-  name="q"
-  id="search-input"
-  class="search-form__input"
-  placeholder="Find a recipe or ingredient"
-  required
-  autocomplete="off"
->
-<form>
-<ul class="call-tag-list">
-  <li class="call-tag">Chicken</li>
-  <br>
-</ul>
-<ul class="call-tag-list">
-  <li class="call-tag">Smothies</li>
-</ul>
-<ul class="call-tag-list">
-  <li class="call-tag">Banana Bread</li>
-</ul>
-<ul class="call-tag-list">
-  <li class="call-tag">Lasagna</li>
-</ul>
-<ul class="call-tag-list">
-  <li class="call-tag">Pancake</li>
-</ul>
-<ul class="call-tag-list">
-  <li class="call-tag">Meatloaf</li>
-</ul>
-<ul class="call-tag-list">
-  <li class="call-tag">Cookies</li>
-</ul>
-<ul class="call-tag-list">
-  <li class="call-tag">Chilie</li>
-</ul>
 
-  </ul>
-  
-</form>
-</div>
-</div>
 <section class="jams">
   <h4 class="h4">jack is a name of a boy and a girl</h4>
   <div class="speed-container">
@@ -482,27 +448,65 @@
       heroes, are doing in your kitchens.
 
     </p>
-    </div>
-  </div> <!-- Close speed-container -->
-  <div class="call">
+      <div class="call">
     <div class="save">
-      <img src="image/pp1.webp" alt="girl" width="90px" height="90px"class="img">
+      <img src="image/seo1.webp" alt="girl" width="90px" height="90px"class="img">
     </div>
        <div class="save">
-      <img src="image/pp2.webp" alt="girl" width="90px" height="90px"class="img">
+      <img src="image/seo2.webp" alt="girl" width="90px" height="90px"class="img">
     </div>
      <div class="save">
-      <img src="image/pp2.webp" alt="girl" width="90px" height="90px"class="img">
+      <img src="image/psw4.webp" alt="girl" height="90px"class="img">
     </div>
-  </div>
-</section> <!-- Close jams section -->
+       <div class="save">
+      <img src="image/prin21.webp" alt="girl" width="90px" height="90px"class="img">
+    </div>
+     <div class="save">
+      <img src="image/stel2.webp" alt="girl" class="img">
+    </div>
+     <div class="save">
+      <img src="image/man4.webp" alt="girl" class="img">
+    </div>
 
+
+      <div class="save">
+      <img src="image/black8.webp" alt="girl" class="img">
+    </div>
+    
+      <div class="save">
+      <img src="image/jo3.webp" alt="girl" class="img">
+    </div>
+
+     <div class="save">
+      <img src="image/mar0.webp" alt="girl" class="img">
+    </div>
+
+    
+     <div class="save">
+      <img src="image/.webp" alt="girl"  class="img">
+    </div>
+    </div>
+  </div> <!-- Close speed-container -->
+
+</section> <!-- Close jams section -->
+<section class="prime">
+  <p>Prime content goes here</p>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function() {
+    // When the toggle button is clicked
+    $('.toggle').click(function() {
+      // Toggle the visibility of the menu items
+      $('li').slideToggle(); // smooth slide animation
+    });
+  });
+</script>
 </body>
 </html>
 
   
-
-
 
 
 
